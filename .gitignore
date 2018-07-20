@@ -1,0 +1,8 @@
+# Truffle build artifacts
+/build
+.idea/
+/.idea
+
+/node_modules
+
+secret/
