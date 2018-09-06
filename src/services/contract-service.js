@@ -1,7 +1,3 @@
-//import TraverToken from './../../contracts/build/contracts/TraverToken.json'
-//import Web3 from 'web3'
-//import bs58 from 'bs58'
-
 var TraverToken = require('./../../build/contracts/TraverToken.json');
 var Web3 = require('web3');
 var bs58 = require('bs58');
@@ -66,7 +62,6 @@ class ContractService {
 		if (method._method.constant) {
 			return await method.call(opts)
 		}
-		console.log('cfunc6')
 
 		const transReceipt = await new Promise((resolve, reject) => {
 			method
