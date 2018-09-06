@@ -1,5 +1,5 @@
 pragma solidity ^0.4.24;
-import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "../../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract UserRegistry is Ownable {
 	event NewUser(address _address);

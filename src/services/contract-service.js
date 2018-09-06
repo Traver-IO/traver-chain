@@ -1,4 +1,4 @@
-var TraverToken = require('./../../build/contracts/TraverToken.json');
+var TraverToken = require('./../../contracts/build/contracts/TraverToken.json');
 var Web3 = require('web3');
 var bs58 = require('bs58');
 

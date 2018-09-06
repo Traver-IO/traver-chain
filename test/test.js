@@ -1,6 +1,6 @@
 var contract = require('truffle-contract')
 var ContractService = require('../src/services/contract-service')
-var TraverToken = require('../build/contracts/TraverToken.json')
+var TraverToken = require('../contracts/build/contracts/TraverToken.json')
 var Web3 = require('web3');
 
 
