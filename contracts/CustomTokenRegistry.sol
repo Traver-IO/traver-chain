@@ -62,7 +62,7 @@ contract CustomTokenRegistry is Ownable {
 		uint256 _tvr_supply
 	)
 		external
-       		onlyOwner
+       	onlyOwner
 	{
 		require(token_list[_contract_location].contract_location == address(0));
 		token_list[_contract_location] = custom_token({
